@@ -1,24 +1,24 @@
 public class CalculadoraExamen {
-	private int num1;
-	private int num2;
+	private int numero1;
+	private int numero2;
 	
 	public CalculadoraExamen(int a, int b){
-		num1 = a;
-		num2 = b;
+		numero1 = a;
+		numero2 = b;
 	}
 	
 	public int divideix(){
-		int resul = num1/num2;
+		int resul = numero1/numero2;
 		return resul;
 	}
 	
 	public double potencia(){
-		double resul = Math.pow(num1, num2);
+		double resul = Math.pow(numero1, numero2);
 		return resul;
 	}
 	
 	public boolean resta(){
-		if(num1%2>num2%3){
+		if(numero1%2>numero2%3){
 			return true;
 		}
 		else{

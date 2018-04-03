@@ -7,7 +7,7 @@ public class CalculadoraExamenTest {
 	@Test
 	public void testPotencia() {
 		CalculadoraExamen calculadora = new CalculadoraExamen(3, 2);
-		double num = 7;
+		double numero = 7;
 		double resul = calculadora.potencia();
 		assertEquals(num, resul);
 	}
